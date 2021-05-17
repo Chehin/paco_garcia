@@ -1,0 +1,1 @@
+@extends('pedidos/pedidos/pedidosEstadoPagoEditScripts')

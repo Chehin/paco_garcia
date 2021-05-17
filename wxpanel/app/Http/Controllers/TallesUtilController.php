@@ -1,0 +1,18 @@
+<?php
+namespace App\Http\Controllers;
+
+
+class TallesUtilController extends GenericUtilController
+{
+    public function __construct(TallesController $res) {
+		
+		parent::__construct();
+		
+		$this->resource = $res->resource;
+		$this->resourceLabel = $res->resourceLabel;
+		$this->user = $res->user;
+		$this->modelName = $res->modelName;
+		$this->viewPrefix = $res->viewPrefix;
+		//$this->itemNameField = 'titulo';
+	}
+}
